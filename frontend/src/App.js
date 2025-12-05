@@ -6,17 +6,13 @@ import Layout from './pages/Layout';
 import UserPage from './pages/UserPage';
 import { KerdesekProvider } from './contexts/KerdesekContext';
 
-
-
-
-
 const router = createBrowserRouter([
-  
+
   //route-ok Layout-tal
   {
     path: "/",
     element: <Layout />,
-     
+
     children: [
       {
         index: true, // Főoldal átirányítás dashboard-ra
@@ -33,8 +29,8 @@ const router = createBrowserRouter([
       {
         path: "ujquiz",
         element: <AdminPage />,
-      }    
-     
+      }
+
     ],
   },
 

@@ -4,17 +4,17 @@ function Navigation() {
   return (
     <nav className="">
       <ul className="nav">
-        <li class="nav-item">
+        <li className="nav-item">
           <NavLink to="/" >
             Összes Quiz
           </NavLink>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <NavLink to="/ujquiz" >
             Új kérdés
           </NavLink>
         </li>
-        <li class="nav-item">
+        <li className="nav-item">
           <NavLink
             to="/toplista" >
             Toplista
